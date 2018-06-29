@@ -8,6 +8,8 @@ package MenuPrincipal;
 import Exercicio01.Ex01;
 import Exercicio01.JFrameInterfaceE;
 import Exercicio02.Ex02;
+import Exercicio03.Ex03;
+import Exercicio04.Ex04;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -128,19 +130,19 @@ public class Menu implements JFrameInterfaceE{
     }
     
     public void acaoJButton03(){
-        jButton02.addActionListener(new ActionListener() {
+        jButton03.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+               new Ex03(); 
             }
         });
     }
     
     public void acaoJButton04(){
-        jButton02.addActionListener(new ActionListener() {
+        jButton04.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+                new Ex04();
             }
         });
     }
