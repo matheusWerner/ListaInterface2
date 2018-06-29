@@ -10,6 +10,7 @@ import Exercicio01.JFrameInterfaceE;
 import Exercicio02.Ex02;
 import Exercicio03.Ex03;
 import Exercicio04.Ex04;
+import Exercicio05.Ex05;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -148,10 +149,10 @@ public class Menu implements JFrameInterfaceE{
     }
     
     public void acaoJButton05(){
-        jButton02.addActionListener(new ActionListener() {
+        jButton05.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+              new Ex05();  
             }
         });
     }
